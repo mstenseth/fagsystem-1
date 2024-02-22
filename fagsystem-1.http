@@ -1,6 +1,23 @@
 @fagsystem_1_HostAddress = http://localhost:5260
 
+### Hent ut all skred
 GET {{fagsystem_1_HostAddress}}/natureincident/
 Accept: application/json
 
-###
+### Hent ut all skred fra dato 2023-01-01
+GET {{fagsystem_1_HostAddress}}/natureincident/search?mindate=2023-01-01
+Accept: application/json
+
+### Hent ut all skred fra dato 2024-01-01
+GET {{fagsystem_1_HostAddress}}/natureincident/search?mindate=2024-01-01
+Accept: application/json
+
+### Hent ut alle skred på en BBox som treffer E18
+GET {{fagsystem_1_HostAddress}}/natureincident/search?bottom=6647419.859&left=249628.696&top=6647463.375&right=249674.11
+Accept: application/json
+
+
+### Hent ut alle skred på en BBox som treffer Både E16 og  E18
+GET {{fagsystem_1_HostAddress}}/natureincident/search?bottom= 6647419.859&left=245045.534&top=6652985.591&right=249674.11
+Accept: application/json
+
