@@ -1,0 +1,6 @@
+@fagsystem_1_HostAddress = http://localhost:5260
+
+GET {{fagsystem_1_HostAddress}}/natureincident/
+Accept: application/json
+
+###
