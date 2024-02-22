@@ -1,4 +1,4 @@
-# Enkelt fagsystem ekspempel for skred
+# Enkelt fagsystem eksempel for skred
 
 ## Anbefalte extensions for vscode
 
